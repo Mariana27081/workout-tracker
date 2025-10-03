@@ -55,14 +55,7 @@ const createExercise = (req, res) => {
       .json({ error: "Todos los campos son requeridos" });
   }
 
-  const newExercise = {
-    id: `${Date.now()}`,
-    nombre,
-    descripcion,
-    categoria,
-    grupo_muscular
-  };
-
+ 
   exercises.push(newExercise);
   res.status(201).json(newExercise);
 };
