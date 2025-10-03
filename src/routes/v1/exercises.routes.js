@@ -14,5 +14,6 @@ router.get("/:id", getExerciseById);
 router.post("/", createExercise);
 router.put("/:id", updateExercise);
 router.delete("/:id", deleteExercise);
+//rutas
 
 module.exports = router;
