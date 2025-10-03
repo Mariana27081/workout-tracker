@@ -1,6 +1,6 @@
 // src/controllers/users.controller.js
 
-// Estado en memoria (simulación)
+// Estado en memoria 
 let users = [
   {
     id: "b42f53fa-7b30-4b91-8d36-dc1c6ef27611",
