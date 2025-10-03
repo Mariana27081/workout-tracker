@@ -12,17 +12,7 @@ let exercises = [
 ];
 
 // GET /exercises
-const getExercises = (req, res) => {
-  const { categoria, grupo_muscular, search } = req.query;
-  let result = exercises;
 
-  if (categoria) {
-    result = result.filter(e => e.categoria === categoria);
-  }
-
-  if (grupo_muscular) {
-    result = result.filter(e => e.grupo_muscular === grupo_muscular);
-  }
 
   if (search) {
     result = result.filter(e =>
